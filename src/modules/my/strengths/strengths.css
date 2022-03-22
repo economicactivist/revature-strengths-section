@@ -4,86 +4,65 @@
   padding: 0;
   font-size: 18px;
 }
+/* dashicons:awards */
+.header-icon{
+    width: 30px;
+    height: 30px;
+}
 
-.strengths-container{
-    display: grid;
-    grid-template-rows: 30% 70%;
-    grid-template-columns: 25% 75%;
-    grid-template-areas: "skill header"
-                        "skill progressbar";
+.edit-icon{
+    width: 25px;
+    height: 25px;
+}
 
+img {
+    width: 100%; /* or any custom size */
+    height: 100%; 
+    object-fit: contain;
+}
+
+.strengths-header{
+    position: relative;
+    font-size: 1.75em;
+    top: 20px;
+    left: 31px;
 }
 
 .header-icon-container{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-areas: "icon icon";
+   height:50px;
 }
 
-.header-title-icon-float-left{
-    position: relative;
-    grid-area: icon;
-    justify-self: end;
-    align-self: center;
-    left: -100px;
-}
-
-.header-icon-container-float-right{
-    grid-area: icon;
-    justify-self: end;
-    align-self: center;
-}
-
-header{
-    grid-area: header;
-    background-color: #f5f5f5;
-    padding: 10px;
-    text-align: center;
-}
-
-aside{
-    grid-area: skill;
-    background-color: #0095a8;
-    padding: 10px;
-   
-   
-}
-
-.progress-bar-labels{
-
-    text-align: right;
-}
-
-main {
-    grid-area: progressbar;
-    background-color: #0672ca;
-    padding: 10px;
+.header-icon-upper-left{
     
+    position: relative;
+    top: -25px;
+   
+}
+
+.strengths-header-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 20px;
+    padding: 5px;
+    background: #f5f5f5;
+}
+
+.strengths-content-row{
+    display: flex; 
+    justify-content: center;
+    margin: 4px;
+}
+
+.skill-level{
+    width: 80%;
+}
+.skill-name{
+    width: 20%;
+    font-size: 1.5em;
 }
 
 
 
 
 
-/* dashicons:awards */
-.header-icon{
-    /* position: absolute; */
-    width: 50px;
-    height: 50px;
-    /* left: 280px;
-    top: 44px; */
-    /* background: rgba(0, 101, 95, 0.35); */
-}
-
-
-
-
-/* Vector */
-
-/* position: absolute;
-left: 15.5%;
-right: 15.5%;
-top: 9.55%;
-bottom: 4%;
-
-background: rgba(0, 101, 95, 0.35); */

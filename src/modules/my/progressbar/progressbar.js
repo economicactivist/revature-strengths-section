@@ -15,6 +15,7 @@ move() {
     if (this.i === 0) {
       this.i = 1;
       let elem = this.template.querySelector('.myBar');
+      let elemInnerSpan = this.template.querySelector('.score-percentage');
       console.log(elem);
         this.id = setInterval(() => {
             if (this.width >= this.endwidth) {
@@ -26,7 +27,7 @@ move() {
             } else {
                 this.width++;
                 elem.style.width = this.width + '%';
-                elem.textContent = this.width  + '%';
+                elemInnerSpan.innerHTML = this.width + '%';
 
             }
         }, 10);

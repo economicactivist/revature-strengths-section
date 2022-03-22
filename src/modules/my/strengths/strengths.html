@@ -1,41 +1,58 @@
 <template>
+    <div class="test-div">
+    </div>
     <div class="strengths-container">
-        <header>
-            <div class="edit-icon-float-right">
-                <div class="edit-icon-container">
-                    <img class="edit-icon" src="" alt="">
-                </div>
-            </div> <!-- edit-icon-float-right --> 
-        </header>
-        <aside class="progress-bar-label-container">
-            <!-- header-title-icon-float-left -->
+        <div class="strengths-header-row">
             <div class="header-icon-container">
-                <div class="header-title-icon-float-left">
-                    <img class="header-icon" src="" alt="">
+                <h1 class="strengths-header header">Strengths</h1>
+                <div class="header-icon header-icon-upper-left">
+                    <img src="../resources/Strengths.png" alt="">
                 </div>
-            
-                <!-- <h1 class="header-title">{title}</h1> -->
-                <h1 class="header-icon-container-float-right">Strengths</h1>
-            </div> <!-- header-title-icon-float-left -->
-            <!-- <h2 class="progress-bar-label">{skill}</h2> -->
-            <div class="progress-bar-labels">
-                <h2 class="progress-bar-label">Skill Name1</h2>
-                <h2 class="progress-bar-label">Skill Name2</h2>
-                <h2 class="progress-bar-label">Skill Name3</h2>
-                <h2 class="progress-bar-label">Skill Name4</h2>
-                <h2 class="progress-bar-label">Skill Name5</h2>
+            </div> <!-- header-icon-container -->
+            <div class="edit-icon edit-icon-float-right">
+                <img src="../resources/edit.png" alt="">
+             
             </div>
-      
-        </aside>
-        <main>
-            <!-- add percentage div later -->
-            <my-progressbar></my-progressbar>
-            <my-progressbar></my-progressbar>
-            <my-progressbar></my-progressbar>
-            <my-progressbar></my-progressbar>
-            <my-progressbar></my-progressbar> 
-        </main>
-
-        
+        </div>
+        <div class="strengths-content-row">
+            <div class="skill-name">
+                skill 1
+            </div>
+            <div class="skill-level">
+             <my-progressbar></my-progressbar>
+            </div>
+        </div>
+        <div class="strengths-content-row">
+            <div class="skill-name">
+                skill 2
+            </div>
+            <div class="skill-level">
+             <my-progressbar></my-progressbar>
+            </div>
+        </div>
+        <div class="strengths-content-row">
+            <div class="skill-name">
+                skill 3
+            </div>
+            <div class="skill-level">
+             <my-progressbar></my-progressbar>
+            </div>
+        </div>
+        <div class="strengths-content-row">
+            <div class="skill-name">
+                skill 4
+            </div>
+            <div class="skill-level">
+             <my-progressbar></my-progressbar>
+            </div>
+        </div>
+        <div class="strengths-content-row">
+            <div class="skill-name">
+                skill 5
+            </div>
+            <div class="skill-level">
+             <my-progressbar></my-progressbar>
+            </div>
+        </div>
     </div>
 </template>
