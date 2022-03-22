@@ -1,0 +1,17 @@
+
+.myProgress {
+    width: 100%;
+    background-color: grey;
+    border-radius: 10px;
+  }
+  
+.myBar {
+    width: 0%;
+    height: 10px;
+    background-color: #00E2D5;
+    border-radius: 10px;
+  }
+
+.error {
+    border-color: red;
+}
